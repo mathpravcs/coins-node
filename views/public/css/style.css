@@ -1,0 +1,42 @@
+body {
+    background-color: #f0f0f0; /* Gray background */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background for the container */
+    border-radius: 8px; /* Rounded corners for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect for the container */
+}
+
+h1 {
+    color: green; /* Green color for h1 elements */
+    margin-bottom: 10px;
+}
+
+.list-group {
+    list-style: none;
+    padding: 0;
+}
+
+.list-group-item {
+    background-color: #fff; /* White background for list items */
+    margin-bottom: 8px;
+    padding: 10px;
+    border: 1px solid #ddd; /* Border for list items */
+    border-radius: 4px; /* Rounded corners for list items */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect for list items */
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 4px; /* Rounded corners for the first list item */
+    border-top-right-radius: 4px;
+}
+
+.list-group-item:last-child {
+    border-bottom-left-radius: 4px; /* Rounded corners for the last list item */
+    border-bottom-right-radius: 4px;
+}
